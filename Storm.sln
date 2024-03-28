@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34707.107
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Storm.InsuranceDomain.UnitTests", "Storm.InsuranceDomain.UnitTests\Storm.InsuranceDomain.UnitTests.csproj", "{05C4A74F-B288-48D2-B5F2-7719A26E5669}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Storm.InsuranceDomain", "Storm.InsuranceDomain\Storm.InsuranceDomain.csproj", "{E882608D-B240-46A8-A15A-B8AB347D7DF3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05C4A74F-B288-48D2-B5F2-7719A26E5669}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05C4A74F-B288-48D2-B5F2-7719A26E5669}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05C4A74F-B288-48D2-B5F2-7719A26E5669}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05C4A74F-B288-48D2-B5F2-7719A26E5669}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E882608D-B240-46A8-A15A-B8AB347D7DF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E882608D-B240-46A8-A15A-B8AB347D7DF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E882608D-B240-46A8-A15A-B8AB347D7DF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E882608D-B240-46A8-A15A-B8AB347D7DF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9375076B-7510-4D11-B487-6B0AD633AA09}
+	EndGlobalSection
+EndGlobal
