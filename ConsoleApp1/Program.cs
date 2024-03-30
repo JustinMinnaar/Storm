@@ -10,8 +10,9 @@ var places = new Place[]
     new("forest", "You are in the mountains.", "W=cave,N=valley"),
     new("cave", "You are in a cave.", "E=forest"),
     new("valley", "You are in the valley. You see a village.", "S=forest,N=village"),
-    new("village", "You are in the village.", "S=valley,N=ocean"),
+    new("village", "You are in the village. There is a tavern.", "S=valley,N=ocean,I=tavern"),
     new("ocean", "You are at the ocean.", "S=village"),
+    new("tavern", "You are in the tavern.", "O=village"),
 };
 
 var currentPlace = places.First();
